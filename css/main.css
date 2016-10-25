@@ -391,6 +391,7 @@ p {
     height: 50vh;
     position: relative;
     text-align: center;
+    color: #fff;
 }
 
 .resume h2 {
@@ -398,6 +399,9 @@ p {
     margin-top: 0;
 }
 
+.resume h4 {
+    margin-top: 0;
+}
 
 .resume-icon {
     margin: 0 auto;
