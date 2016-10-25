@@ -31,6 +31,10 @@ ul {
     list-style: none;    
 }
 
+* {
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
 body {
     background-color: #fff;    
 }
@@ -45,6 +49,23 @@ p {
     font-weight: 400;
 }
 
+
+/* Purple background gradient */
+.contact, 
+.aboutMe,
+.projects {
+    
+    
+    background: rgba(235,233,249,1);
+    background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(0%, rgba(206,199,236,1)), color-stop(2%, rgba(206,199,236,1)), color-stop(52%, rgba(235,233,249,1)), color-stop(100%, rgba(193,191,234,1)));
+    background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+}
+
 /*
 .wrap {
     max-width: 950px;
@@ -54,7 +75,7 @@ p {
 
 /* Tree background */
 
-.chris {
+.banner {
     background-image: url(../img/wizardPic.jpg);
     height: 33rem;
     width: 100%;
@@ -62,7 +83,13 @@ p {
     background-size: cover;
     background-position: 40%;
     color: rgba(255,255,255,0.7);
+    text-align: center;
 }   
+
+.banner h1 {
+    padding-top: 50%;
+}
+
 
 /* Header */
 
@@ -248,15 +275,7 @@ p {
     z-index: 1;
     color: rgba(255,255,255,0.7);
     
-    /* Background Gradient */
-    background: rgba(235,233,249,1);
-    background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(0%, rgba(206,199,236,1)), color-stop(2%, rgba(206,199,236,1)), color-stop(52%, rgba(235,233,249,1)), color-stop(100%, rgba(193,191,234,1)));
-    background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
-    background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
-    background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
-    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+  
     
 }
 
@@ -297,154 +316,102 @@ p {
 }
 
 
-/* SKILLS */
+/* Skills Section */
 .skills {
-    height: 14vh;
-    width: 100%;
-    background-color:  rgba(191,138,55,0.8);
+    background-color: #333;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
 }
 
 
 
 
-/* PROJECTS */
-
-.projects h1 {
+/* Projects Section */
+.projects {
+    height: 50vh;
+    color: #fff;
+    position: relative;
     text-align: center;
+    z-index: -2;
+}
+
+.projects h2 {
+    margin-top: 0;
 }
 
 .projects ul {
     padding: 0;
 }
 
-.gallery-item{
-    height: 100px;
-    width: 100px;
-    margin: 5% auto;
-    border: 1px solid black;
-    position: relative;
-    background-size: cover;
-}
-
-#gal1 {
-    background-image: url(../img/chris_champagne.jpg);
-    
-}
-
-#gal2 {
-    background-image: url(../img/Chris_tie.jpg);
-}
-
-#gal3 {
-    background-image: url(../img/chris.jpg);
-}
-
-.gallery-item a {
-    cursor: pointer;
-}
-
-
-/* gallery overlay */
-.goverlay {
+.projects-overlay {
+    top: 0;
     position: absolute;
-    background-color: rgba(0,0,0,0);
-    color: rgba(255,255,255,0);
+    width: 100%;
     height: 100%;
-    width: 100%; 
-    transition: background-color 600ms, color 600ms;
-}
-
-.goverlay:hover {
-    background-color: rgba(0,0,0,0.5);
-    color: rgba(255,255,255,1);
-}
-
-.goverlay span {
-    position: absolute;
-    top: 40%;
-    left: 20%;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
 }
 
 
-/*********************************
-MODALS
-*********************************/
-
-/* PROFILE IMAGE MODAL*/
-/* CONTACT MODAL */
-/* TO-TOP BUTTON */
-
-
-
-
-/* FOOTER & RESUME */
-.footer {
-/*
-    height: 5.8rem;
-    background-color: burlywood;
-*/
+ /* Resume section */
+.resume {
+    background-color: #333;
+    height: 50vh;
+    position: relative;
     text-align: center;
 }
 
-.footer h5, .footer h3 {
-    margin: 0;
+.resume h2 {
+    padding-top: 10%;
+    margin-top: 0;
 }
 
-.footer h4 a{
-    text-decoration: none;
+
+.resume-icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px; 
+    background-image: url('../img/resume-op.png');
+    background-size: cover;
 }
 
-.footer h4 {
 
-    margin: 0;
-    float: right;
-}
 
-.footer a {
-    color: black;
-}
-
-.footer a:hover {
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-.footer h5 a:hover {
-    font-size: 1rem;
-}
-
-.footer h6 {
-    text-align: left;
-    padding-top: 0;
-    float: left;
-    font-size: 1rem;
-    color: rgba(255,255,255,0.8);
-    margin:0;
-}
-
-.footer h6 a:hover {
-    font-size: 1.1rem;
-    text-decoration: none;
-}
-
-.resume {
-    padding: 1.2rem;
-}
-
-.resume-tab-open {
-    position: fixed;
-    top: 5%;
-    left: 9%;
-    height: 80vh;
-    width: 70vw;
+/* Contact section */
+.contact {
+    height: 50vh;
+    position: relative;
+    text-align: center;
     color: #fff;
-    background-color: rgba(0,0,0,0.925);
-    transition: background-color 600ms;
-    z-index: 1000;
+    z-index:-2;
 }
 
-.resume-tab-open a {
-    color: rgba(255,255,255,0.8);
+.contact h2 {
+    margin: 0;
+    padding-top: 10%;
 }
+
+.contact-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    z-index: -1;
+}
+
+.mail-icon {
+    height: 40px;
+    width: 73px;
+    background-image: url('../img/envelope-icon.svg');
+    background-size: cover;
+    background-repeat: no-reapeat;
+    margin: 0 auto;
+}
+
+
 
 /* Closed-Nav animation */
 
@@ -476,4 +443,6 @@ MODALS
         right: 47%;
     }
 }
+
+
 

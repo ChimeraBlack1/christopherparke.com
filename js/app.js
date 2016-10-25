@@ -1,3 +1,5 @@
+
+// Hamburger meu and Social icon html for inject 
 var headerInject = function() {
     // Hamburger menu HTML for injection
 var x = "<div id='hamburger' class='hamburger' onclick='clickBurger()'>";
@@ -18,11 +20,8 @@ x += "</a>";
 x += "<a href='https://github.com/ChimeraBlack1' target='_blank'>";
     x += "<div class='social-icon github-icon'></div>";
 x += "</a>";
-    console.log('success');
     return x;
 }
-
-
 
 // inject Hamburger menu and Social icons into Header Element
 document.getElementById('header').innerHTML = headerInject();
@@ -136,4 +135,22 @@ var noHeader = function() {
         $('.hamburger').removeClass('rounded');
     }
 }
+
+//var footerTab = function() {
+//    // if tab is CLOSED... 
+//    if (!$('.resume').hasClass('resume-tab-open')) {
+//        // ...open it...
+//        $('.resume').addClass('resume-tab-open');
+//        // ... and change the text to an x
+//        document.getElementById('resume').innerHTML = resume.open();
+//        
+//        
+//    // if tab is OPEN...   
+//    } else if ($('.resume').hasClass('resume-tab-open')) {
+//        // ...close it
+//        $('.resume').removeClass('resume-tab-open');
+//        // ...and change the text back to resume
+//        document.getElementById('resume').innerHTML = resume.close();
+//    }
+//}
 

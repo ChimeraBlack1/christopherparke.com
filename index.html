@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+    <!-- NORMALIZE -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" rel="stylesheet">
     <!-- MAIN CSS -->
-    <link rel='stylesheet' href='css/main.css' type="text/css">
-      
+    <link rel='stylesheet' href='css/main.css' type="text/css">   
   </head>
   <body onscroll="noHeader()">
-      <header id="header" class="header" alt="header">
+      <header id="header" class="header" alt="header"></header>
         <nav id="nav" class="nav" alt="nav">
             <ul>
                 <li><a href="#">ABOUT</a></li>
@@ -21,65 +22,68 @@
                 <li><a href="#">CONTACT</a></li>   
             </ul>    
         </nav>
-      </header>
       
-      <section id='banner'>
+      
+      <section id='banner' class='banner'>
           <h1>Christopher Parke</h1>
           <h2>Full Stack Developer</h2>        
       </section>
       
-      <section id='about'>
+      <section id='about' class='aboutMe'>
         <p></p>
           <hr>
-        <p></p>  
+        <p></p>
+        <div class="overlayMe"></div>
       </section>
       
-      <section id='skills'>
-        <span></span>
+      <section id='skills' class='skills'>
+        <span>HTML</span>
           <div class='black-bar'>
               <div class='green-bar'>
               </div>
           </div>
-        <span></span>
+        <span>CSS</span>
             <div class='black-bar'>
                 <div class='green-bar'>
                 </div>
             </div>
-        <span></span>
+        <span>JavaScript</span>
           <div class='black-bar'>
               <div class='green-bar'>
               </div>
           </div>
       </section>
       
-      <section id='projects'>
+      <section id='projects' class='projects'>
         <h2></h2>
           <div class='gallery'>
+              <h2>Projects</h2>
             <ul> 
                 <li>project 1</li>
                 <li>project 2</li>
                 <li>project 3</li>
             </ul>
           </div>
+          <div class='projects-overlay'></div>
       </section>
       
       <footer>
-          <section id='resume'>
-                <div class='resume-icon'></div>
+          <section class='resume'>
+              <h2><a href='img/christpherParke.pdf'>Printer Friendly</a></h2>
+                <a href='img/christpherParke.pdf'><div class='resume-icon'></div></a>
           </section>
 
-          <section id='contact'>
+          <section id='contact' class='contact'>
+              <a href='img/christpherParke.pdf'><h2>Contact</h2></a>
                 <div class='mail-icon'></div>
+              <div class='contact-overlay'></div>
           </section>
       </footer>
-      
-      
-      
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
           
-    <!-- Javascript -->
+    <!-- My JS -->
     <script src='js/app.js'></script>
       
   </body>
