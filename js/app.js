@@ -77,9 +77,7 @@ var clickBurger = function() {
         // Hamburger menu Close animation
             $('.hamburger > #donutOne').removeClass('open1');
             $('.hamburger > #donutTwo').removeClass('open2');
-            $('.hamburger > #donutThree').removeClass('open3');
-            
-            
+            $('.hamburger > #donutThree').removeClass('open3'); 
     }
     
     // if document is scrolled down and the hamburger's first donut has the class 'open1'...

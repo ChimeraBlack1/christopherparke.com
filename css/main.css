@@ -51,7 +51,7 @@ p {
 
 
 /* Purple background gradient */
- .contact,
+.contact,
 .aboutMe,
 .projects {
     
@@ -87,7 +87,7 @@ p {
 }   
 
 .banner h1 {
-    padding-top: 50%;
+    padding-top: 70vh;
 }
 
 
@@ -334,7 +334,7 @@ p {
 }
 
 .black-bar {
-    width: 15%;
+    width: 50%;
     height: 5vh;
     background-color: #222;
     position: relative;
