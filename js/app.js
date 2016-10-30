@@ -134,6 +134,54 @@ var noHeader = function() {
     }
 }
 
+
+
+// cycle through gallery onclick
+var rotateGal = function () {
+
+     // if project hasClass project 1 ...
+     if ($('#project').hasClass('p1')) {
+         // addClass project2
+         $('#project').addClass('p2');
+        // removeClass project1
+         $('#project').removeClass('p1');
+     } else if ($('#project').hasClass('p2')) {
+         // addClass project3
+        $('#project').addClass('p3');
+        // removeClass project2
+        $('#project').removeClass('p2');
+     } else if ($('#project').hasClass('p3')) {
+        // addClass project1
+        $('#project').addClass('p1');
+        // removeClass project 3
+        $('#project').removeClass('p3');
+     }
+        
+    
+}
+
+   
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //var footerTab = function() {
 //    // if tab is CLOSED... 
 //    if (!$('.resume').hasClass('resume-tab-open')) {
@@ -151,4 +199,38 @@ var noHeader = function() {
 //        document.getElementById('resume').innerHTML = resume.close();
 //    }
 //}
+
+
+
+
+
+
+
+
+//
+//    var x;
+//    x+=1;
+//        
+//    if(x==1){
+////        document.getElementById('project').innerHTML = PROJECT;
+//        console.log('Project1');
+//    }else if(x==2) {
+////        document.getElementById('project').innerHTML = PROJECT2;
+//        console.log('Project2');
+//    }else if (x==3) {
+////        document.getElementById('project').innerHTML = PROJECT3;
+//        console.log('Project3');
+//    }else if (x==4) {
+//        x=0;
+////        document.getElementById('project').innerHTML = PROJECT1;
+//        console.log('Project4');
+//    }
+
+
+
+
+
+
+
+
 
