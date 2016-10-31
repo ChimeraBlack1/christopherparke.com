@@ -1,0 +1,74 @@
+/* Purple background gradient */
+.contact,
+.aboutMe,
+.projects {
+    
+    
+    background: rgba(235,233,249,1);
+    background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(0%, rgba(206,199,236,1)), color-stop(2%, rgba(206,199,236,1)), color-stop(52%, rgba(235,233,249,1)), color-stop(100%, rgba(193,191,234,1)));
+    background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(206,199,236,1) 0%, rgba(206,199,236,1) 2%, rgba(235,233,249,1) 52%, rgba(193,191,234,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
+}
+
+/*
+.wrap {
+    max-width: 950px;
+    margin: 0 auto;
+}
+*/
+
+/* Tree background */
+
+.banner {
+    background-image: url(../img/wizardPic.jpg);
+    height: 33rem;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 40%;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+}   
+
+
+.clearfix {
+    height: 50%;
+}
+
+.banner h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/*  About Me   */
+.about {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 12rem;
+}
+
+.aboutMe {
+    position: relative;
+    text-align: center;
+    padding: 7% 10%;
+    font-size: 10rem;
+    font-weight: 800;
+    z-index: 1;
+    color: rgba(255,255,255,0.7);    
+}
+
+
+
+.overlayMe {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}

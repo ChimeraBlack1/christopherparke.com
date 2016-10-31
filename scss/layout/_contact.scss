@@ -1,0 +1,37 @@
+/* Contact section */
+.contact {
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+
+.contact h2 {
+    margin: 0;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+
+.contact-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    z-index: 1;
+}
+
+.mail-icon {
+    position: relative;
+    z-index: 2;
+    height: 40px;
+    width: 73px;
+    background-image: url('../img/envelope-icon.svg');
+    background-size: cover;
+    background-repeat: no-reapeat;
+    margin: 0 auto;
+}

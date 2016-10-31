@@ -1,0 +1,43 @@
+/* Skills Section */
+.skills {
+    background-color: #333;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2vh;
+    padding-left: 4vh;
+    padding-right: 5vh;
+}
+
+
+.skill1 {
+    padding-top: 5vh;
+}
+
+.black-bar {
+    width: 50%;
+    height: 5vh;
+    background-color: #222;
+    position: relative;
+}
+
+.green-bar {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: green;
+}
+
+.green-bar2 {
+    width: 85%;
+}
+
+.green-bar3 {
+    width: 50%;
+}

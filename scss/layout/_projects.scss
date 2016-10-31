@@ -1,0 +1,40 @@
+/* Projects Section */
+.projects {
+    height: 50vh;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+.projects ul {
+    padding: 0;
+}
+
+.projects-overlay {
+    
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: -1;
+    
+}
+
+.projects li {
+    height: 100px;
+    width: 100px;
+}
+
+.p1{
+    background-image: url"";
+}
+
+.p2 {
+    background-color: green;
+}
+
+.p3 {
+    background-color: blue;
+}
