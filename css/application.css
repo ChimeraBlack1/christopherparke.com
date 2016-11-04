@@ -375,7 +375,8 @@ p {
 
 .projects li {
   height: 100px;
-  width: 100px; }
+  width: 100px;
+  margin: 0 auto; }
 
 .p1 {
   background-image: url ""; }
