@@ -1,21 +1,3 @@
-// **** OBJECTS *****
-var resume = {
-    open: function() {
-        var x = "<h4><a onclick='footerTab()'>X</a></h4>";
-            x += "<h6><a href='../docs/christopherparke.pdf'>Download PDF</a></h6>";
-        return x;
-    },
-    
-    close: function() {
-        var x = "<h3><a onclick='footerTab()'>Resume</a></h3>";
-        return x;
-    }
-}
-
-
-
-// **** FUNCTION DECLARATIONS *** 
-
 /* Hamburger open and close logic */
 var clickBurger = function() {
     // Check if Hamburger Menu is open
@@ -126,8 +108,6 @@ var rotateGal = function () {
         // removeClass project 3
         $('#project').removeClass('p3');
      }
-        
-    
 }
 
    
@@ -135,66 +115,6 @@ var rotateGal = function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//var footerTab = function() {
-//    // if tab is CLOSED... 
-//    if (!$('.resume').hasClass('resume-tab-open')) {
-//        // ...open it...
-//        $('.resume').addClass('resume-tab-open');
-//        // ... and change the text to an x
-//        document.getElementById('resume').innerHTML = resume.open();
-//        
-//        
-//    // if tab is OPEN...   
-//    } else if ($('.resume').hasClass('resume-tab-open')) {
-//        // ...close it
-//        $('.resume').removeClass('resume-tab-open');
-//        // ...and change the text back to resume
-//        document.getElementById('resume').innerHTML = resume.close();
-//    }
-//}
-
-
-
-
-
-
-
-
-//
-//    var x;
-//    x+=1;
-//        
-//    if(x==1){
-////        document.getElementById('project').innerHTML = PROJECT;
-//        console.log('Project1');
-//    }else if(x==2) {
-////        document.getElementById('project').innerHTML = PROJECT2;
-//        console.log('Project2');
-//    }else if (x==3) {
-////        document.getElementById('project').innerHTML = PROJECT3;
-//        console.log('Project3');
-//    }else if (x==4) {
-//        x=0;
-////        document.getElementById('project').innerHTML = PROJECT1;
-//        console.log('Project4');
-//    }
 
 
 
