@@ -88,7 +88,7 @@ var noHeader = function() {
 
 
 
-// cycle through gallery onclick
+// Click for next project in gallery
 var Next = function () {
 
      // if project hasClass project 1 ...
@@ -111,6 +111,27 @@ var Next = function () {
 }
 
    
+// Click for previous project in gallery
+var Previous = function () {
+
+     // if project hasClass project 1 ...
+     if ($('#project').hasClass('p1')) {
+         // addClass project2
+         $('#project').addClass('p3');
+        // removeClass project1
+         $('#project').removeClass('p1');
+     } else if ($('#project').hasClass('p2')) {
+         // addClass project3
+        $('#project').addClass('p1');
+        // removeClass project2
+        $('#project').removeClass('p2');
+     } else if ($('#project').hasClass('p3')) {
+        // addClass project1
+        $('#project').addClass('p2');
+        // removeClass project 3
+        $('#project').removeClass('p3');
+     }
+}
         
 
 

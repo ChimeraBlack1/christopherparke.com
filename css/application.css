@@ -73,16 +73,23 @@ p {
   top: 32%;
   right: 15%; }
 
-.next-arrow {
+.arrow {
   position: absolute;
-  top: 45%;
-  left: 10%;
   width: 20px;
   height: 20px;
-  border: 10px solid black;
-  border-bottom: 0;
-  border-right: 0;
-  transform: rotate(-45deg); }
+  top: 45%;
+  border: 10px solid #333;
+  border-bottom: 0; }
+
+.next {
+  transform: rotate(-45deg);
+  left: 10%;
+  border-right: 0; }
+
+.prev {
+  transform: rotate(45deg);
+  right: 10%;
+  border-left: 0; }
 
 /* Header */
 .header {
@@ -229,7 +236,7 @@ p {
   margin: 0 auto;
   background-size: cover;
   background-position: 40%;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
   text-align: center;
   position: relative; }
 
@@ -328,7 +335,7 @@ p {
 
 .black-bar {
   width: 50%;
-  height: 5vh;
+  height: 3vh;
   background-color: #222;
   position: relative;
   left: 15%; }
@@ -411,6 +418,9 @@ p {
   width: 260px;
   margin: 0 auto; }
 
+.projects h2 {
+  padding-top: 3rem; }
+
 .p1 {
   background-image: url("../img/logistiq.png");
   background-size: cover;
@@ -422,6 +432,10 @@ p {
 .p3 {
   background-color: blue; }
 
+/* Media Queries */
+@media (min-width: 968) {
+  .projects h2 {
+    padding-top: 5rem; } }
 /* Resume section */
 .resume {
   background-color: #333;
