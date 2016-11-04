@@ -1,33 +1,3 @@
-
-// Hamburger meu and Social icon html for inject 
-var headerInject = function() {
-    // Hamburger menu HTML for injection
-var x = "<div id='hamburger' class='hamburger' onclick='clickBurger()'>";
-    x +="<div id='donutOne' class='donut'></div>";
-    x += "<div id='donutTwo' class='donut'></div>";
-    x += "<div id='donutThree' class='donut'></div>";
-    x += "<div id='donutFour' class='x1'></div>";
-    x += "<div id='donutFive' class='x2'></div>";
-x += "</div>";
-
-// Social icon HTML for injection
-x += "<a href='https://www.facebook.com/christopher.parke.566' target='_blank'>";
-    x += "<div class='social-icon facebook-icon'></div>";
-x += "</a>";
-x += "<a href='https://www.youtube.com/channel/UCux4O2wHEeE6IdaO3zVnJig' target='_blank'>";
-    x += "<div class='social-icon youtube-icon'></div>";
-x += "</a>";
-x += "<a href='https://github.com/ChimeraBlack1' target='_blank'>";
-    x += "<div class='social-icon github-icon'></div>";
-x += "</a>";
-    return x;
-}
-
-// inject Hamburger menu and Social icons into Header Element
-document.getElementById('header').innerHTML = headerInject();
-
-
-
 // **** OBJECTS *****
 var resume = {
     open: function() {
