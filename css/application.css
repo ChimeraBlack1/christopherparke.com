@@ -277,6 +277,10 @@ p {
   z-index: 1;
   color: rgba(255, 255, 255, 0.7); }
 
+.me {
+  max-width: 500px;
+  margin: 0 auto; }
+
 .overlayMe {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -286,6 +290,13 @@ p {
   right: 0;
   z-index: -1; }
 
+/* Media Queries */
+@media (min-width: 968px) {
+  .aboutMe {
+    padding: 7% 5%; }
+
+  .me {
+    margin: 0; } }
 /* Skills Section */
 .skills {
   background-color: #333;
