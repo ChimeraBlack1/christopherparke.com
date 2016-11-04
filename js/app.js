@@ -89,7 +89,7 @@ var noHeader = function() {
 
 
 // cycle through gallery onclick
-var rotateGal = function () {
+var Next = function () {
 
      // if project hasClass project 1 ...
      if ($('#project').hasClass('p1')) {

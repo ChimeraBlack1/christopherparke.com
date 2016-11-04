@@ -37,3 +37,19 @@
     top: 32%;
     right: 15%; 
 }
+
+.next-arrow {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    border: 10px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    transform: rotate(-45deg);
+}
+
+.prev-arrow {
+    
+}
