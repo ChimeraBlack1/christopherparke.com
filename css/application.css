@@ -321,7 +321,7 @@ p {
   position: relative;
   text-align: center;
   color: #fff;
-  padding: 2rem; }
+  padding-bottom: 1.5rem; }
 
 .skill {
   display: flex;
@@ -358,13 +358,14 @@ p {
     position: absolute;
     top: 10%;
     right: 5%;
-    z-index: 2; }
+    z-index: 2;
+    padding: 2rem; }
 
   .about-skills {
     position: relative; }
 
   .black-bar {
-    left: 15%; } }
+    left: 10%; } }
 /* Contact section */
 .contact {
   height: 50vh;
