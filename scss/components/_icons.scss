@@ -38,23 +38,60 @@
     right: 15%; 
 }
 
+/* Gallery controls */
+
 .arrow {
     position: absolute;
     width: 20px;
     height: 20px;
-    top: 45%;
+    top: 15%;
     border: 10px solid #333;
-    border-bottom: 0;    
+    border-bottom: 0;   
+    cursor: pointer;
+    transition: border 800ms, box-shadow 300ms;
 }
 
+.arrow:hover {
+    border: 10px solid #fff;
+    border-bottom: 0;
+}
+
+
 .next {
-    transform: rotate(-45deg); 
-    left: 10%;
+    transform: rotate(140deg); 
+    right: 10%;
+    border-right: 0;
+    
+}
+
+.next:hover {
+    box-shadow: -5px -5px 5px #333;
     border-right: 0;
 }
 
 .prev {
-    transform: rotate(45deg);
-    right: 10%;
+    transform: rotate(-140deg);
+    left: 10%;
     border-left: 0;
+}
+
+.prev:hover {
+    box-shadow: 5px -5px 5px #333;
+    border-left: 0;
+}
+
+@media (min-width: 458px) {
+    .arrow {
+        top: 45%;
+    }
+}
+
+@media (min-width: 968px) {
+    .prev {
+        left: 30%;
+    }
+    
+    .next {
+        right: 30%
+    }
 }
