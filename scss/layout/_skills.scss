@@ -25,7 +25,7 @@
     height: 3vh;
     background-color: #222;
     position: relative;
-    left: 15%;
+    left: 0;
 }
 
 .green-bar {
@@ -51,10 +51,13 @@
         right: 5%;
         z-index: 2;
     }
-
-    
+ 
     .about-skills {
         position: relative;
+    }
+    
+    .black-bar {
+        left: 15%;
     }
 }
 

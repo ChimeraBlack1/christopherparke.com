@@ -338,7 +338,7 @@ p {
   height: 3vh;
   background-color: #222;
   position: relative;
-  left: 15%; }
+  left: 0; }
 
 .green-bar {
   position: absolute;
@@ -361,7 +361,10 @@ p {
     z-index: 2; }
 
   .about-skills {
-    position: relative; } }
+    position: relative; }
+
+  .black-bar {
+    left: 15%; } }
 /* Contact section */
 .contact {
   height: 50vh;
