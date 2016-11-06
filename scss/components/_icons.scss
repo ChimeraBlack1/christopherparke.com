@@ -80,9 +80,24 @@
     border-left: 0;
 }
 
+
+/* MEDIA QUERIES */
+
 @media (min-width: 458px) {
     .arrow {
         top: 45%;
+    }
+    
+    .facebook-icon {
+       right: 29%;   
+    }
+    
+    .github-icon {
+       right: 10%; 
+    }
+    
+    .youtube-icon {
+        right: 20%;
     }
 }
 
@@ -93,5 +108,17 @@
     
     .next {
         right: 30%
+    }
+    
+    .facebook-icon {
+       right: 16%;   
+    }
+    
+    .github-icon {
+       right: 5%; 
+    }
+    
+    .youtube-icon {
+        right: 11%;
     }
 }

@@ -106,15 +106,34 @@ p {
   box-shadow: 5px -5px 5px #333;
   border-left: 0; }
 
+/* MEDIA QUERIES */
 @media (min-width: 458px) {
   .arrow {
-    top: 45%; } }
+    top: 45%; }
+
+  .facebook-icon {
+    right: 29%; }
+
+  .github-icon {
+    right: 10%; }
+
+  .youtube-icon {
+    right: 20%; } }
 @media (min-width: 968px) {
   .prev {
     left: 30%; }
 
   .next {
-    right: 30%; } }
+    right: 30%; }
+
+  .facebook-icon {
+    right: 16%; }
+
+  .github-icon {
+    right: 5%; }
+
+  .youtube-icon {
+    right: 11%; } }
 /* Header */
 .header {
   padding: 1rem;
