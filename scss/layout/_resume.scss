@@ -5,6 +5,7 @@
     position: relative;
     text-align: center;
     color: #fff;
+    
 }
 
 .resume h4 {
@@ -17,4 +18,11 @@
     height: 100px; 
     background-image: url('../img/resume-op.png');
     background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .resume {
+        width: 50%;
+        float: left;
+    }
 }

@@ -4,7 +4,6 @@
     position: relative;
     text-align: center;
     color: #fff;
-
 }
 
 .contact h2 {
@@ -15,6 +14,9 @@
     z-index: 2;
 }
 
+.contact a {
+    text-align: center;
+}
 
 .contact-overlay {
     position: absolute;
@@ -34,4 +36,11 @@
     background-size: cover;
     background-repeat: no-reapeat;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .contact {
+        float: right;
+        width: 50%;
+    }
 }

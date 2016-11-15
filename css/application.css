@@ -362,11 +362,12 @@ hr {
     padding: 7% 5%; }
 
   .me {
-    margin: 0; } }
+    margin: 0;
+    max-width: 500px; } }
 @media (min-width: 1440px) {
   .me {
     margin-left: 5%;
-    max-width: 500px; } }
+    max-width: 580px; } }
 /* Skills Section */
 .skills {
   background-color: #333;
@@ -441,6 +442,9 @@ hr {
   position: relative;
   z-index: 2; }
 
+.contact a {
+  text-align: center; }
+
 .contact-overlay {
   position: absolute;
   height: 100%;
@@ -459,6 +463,10 @@ hr {
   background-repeat: no-reapeat;
   margin: 0 auto; }
 
+@media (min-width: 768px) {
+  .contact {
+    float: right;
+    width: 50%; } }
 /* Projects Section */
 .projects {
   height: 50vh;
@@ -518,5 +526,10 @@ hr {
   height: 100px;
   background-image: url("../img/resume-op.png");
   background-size: cover; }
+
+@media (min-width: 768px) {
+  .resume {
+    width: 50%;
+    float: left; } }
 
 /*# sourceMappingURL=application.css.map */
