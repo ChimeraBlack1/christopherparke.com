@@ -325,18 +325,6 @@ hr {
   left: 0; }
 
 /* Purple background gradient */
-.contact,
-.aboutMe,
-.projects {
-  background: #ebe9f9;
-  background: -moz-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebe9f9), color-stop(0%, #cec7ec), color-stop(2%, #cec7ec), color-stop(52%, #ebe9f9), color-stop(100%, #c1bfea));
-  background: -webkit-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
-  background: -o-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
-  background: -ms-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
-  background: linear-gradient(to bottom, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 ); }
-
 /*  About Me   */
 .about {
   text-align: center;
@@ -452,13 +440,18 @@ hr {
 
 .contact h2 {
   margin: 0;
-  padding-top: 20%;
-  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 10%;
   position: relative;
   z-index: 2; }
 
 .contact a {
   text-align: center; }
+
+.contact p {
+  color: #fff;
+  position: relative;
+  z-index: 2; }
 
 .contact-overlay {
   position: absolute;
@@ -471,8 +464,8 @@ hr {
 .mail-icon {
   position: relative;
   z-index: 2;
-  height: 40px;
-  width: 73px;
+  height: 80px;
+  width: 146px;
   background-image: url("../img/envelope-icon.svg");
   background-size: cover;
   background-repeat: no-reapeat;
@@ -481,7 +474,10 @@ hr {
 @media (min-width: 768px) {
   .contact {
     float: right;
-    width: 50%; } }
+    width: 50%; }
+
+  .contact h2 {
+    padding-bottom: 7.5%; } }
 /* Projects Section */
 .projects {
   height: 50vh;
