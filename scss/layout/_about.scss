@@ -1,7 +1,5 @@
 /* Purple background gradient */
-*{
-    border: 1px solid red;
-}
+
 .contact,
 .aboutMe,
 .projects {
@@ -51,6 +49,11 @@
     .me {
         margin: 0 auto;
     }
+    .contact,
+    .aboutMe,
+    .projects  {
+        background: rgba(255,255,255,0);
+    }
 }
 
 @media (min-width: 968px) {
@@ -62,7 +65,8 @@
         margin: 0;
         max-width: 500px;
     }
-
+    
+    
 }
 
 @media (min-width: 1440px) {

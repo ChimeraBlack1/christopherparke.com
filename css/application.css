@@ -2,6 +2,16 @@
 /*
     BASE STYLES
 */
+body {
+  background: #ebe9f9;
+  background: -moz-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ebe9f9), color-stop(0%, #cec7ec), color-stop(2%, #cec7ec), color-stop(52%, #ebe9f9), color-stop(100%, #c1bfea));
+  background: -webkit-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
+  background: -o-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
+  background: -ms-linear-gradient(top, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
+  background: linear-gradient(to bottom, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 ); }
+
 * {
   font-family: 'Sorts Mill Goudy', serif; }
 
@@ -315,9 +325,6 @@ hr {
   left: 0; }
 
 /* Purple background gradient */
-* {
-  border: 1px solid red; }
-
 .contact,
 .aboutMe,
 .projects {
@@ -359,7 +366,12 @@ hr {
 /* Media Queries */
 @media (min-width: 767px) {
   .me {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .contact,
+  .aboutMe,
+  .projects {
+    background: rgba(255, 255, 255, 0); } }
 @media (min-width: 968px) {
   .aboutMe {
     padding: 7% 5%; }
@@ -523,10 +535,13 @@ hr {
 .resume h4 {
   margin-top: 0; }
 
+.resume h2 {
+  padding-top: 2.5%; }
+
 .resume-icon {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 200px;
   background-image: url("../img/resume-op.png");
   background-size: cover; }
 

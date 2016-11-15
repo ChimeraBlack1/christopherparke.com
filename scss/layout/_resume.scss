@@ -12,15 +12,23 @@
     margin-top: 0;
 }
 
+.resume h2 {
+    padding-top: 2.5%;
+}
+
 .resume-icon {
     margin: 0 auto;
-    width: 100px;
-    height: 100px; 
+    width: 150px;
+    height: 200px; 
     background-image: url('../img/resume-op.png');
     background-size: cover;
 }
 
 @media (min-width: 768px) {
+    
+    .resume-icon{
+        
+    }
     .resume {
         width: 50%;
         float: left;
