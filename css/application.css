@@ -35,12 +35,22 @@ h2 {
   margin-top: 0; }
 
 h3 {
-  font-size: 1.5rem; }
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem; }
 
 p {
-  font-size: 1.3rem;
-  font-weight: 400; }
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem; }
 
+hr {
+  margin: 1.5rem; }
+
+@media (min-width: 767px) {
+  h3 {
+    font-size: 1.5rem; } }
 /* Social Icons */
 .social-icon {
   background-size: contain;
@@ -317,12 +327,6 @@ p {
   background: linear-gradient(to bottom, #ebe9f9 0%, #cec7ec 0%, #cec7ec 2%, #ebe9f9 52%, #c1bfea 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 ); }
 
-/*
-.wrap {
-    max-width: 950px;
-    margin: 0 auto;
-}
-*/
 /*  About Me   */
 .about {
   text-align: center;
@@ -331,15 +335,13 @@ p {
 
 .aboutMe {
   position: relative;
-  text-align: center;
-  padding: 7% 10%;
+  padding: 7% 5%;
   font-size: 10rem;
   font-weight: 800;
   z-index: 1;
   color: rgba(255, 255, 255, 0.7); }
 
 .me {
-  max-width: 500px;
   margin: 0 auto; }
 
 .overlayMe {
@@ -352,12 +354,19 @@ p {
   z-index: -1; }
 
 /* Media Queries */
+@media (min-width: 767px) {
+  .me {
+    margin: 0 auto; } }
 @media (min-width: 968px) {
   .aboutMe {
     padding: 7% 5%; }
 
   .me {
     margin: 0; } }
+@media (min-width: 1440px) {
+  .me {
+    margin-left: 5%;
+    max-width: 500px; } }
 /* Skills Section */
 .skills {
   background-color: #333;
@@ -385,7 +394,7 @@ p {
 
 .green-bar {
   position: absolute;
-  width: 75%;
+  width: 90%;
   height: 100%;
   background-color: green; }
 
@@ -393,13 +402,19 @@ p {
   width: 85%; }
 
 .green-bar3 {
+  width: 75%; }
+
+.green-bar4 {
+  width: 65%; }
+
+.green-bar5 {
   width: 50%; }
 
 @media (min-width: 968px) {
   .skills {
     width: 30%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 5%;
     z-index: 2;
     padding: 2rem; }
@@ -409,6 +424,9 @@ p {
 
   .black-bar {
     left: 10%; } }
+@media (min-width: 1440px) {
+  .skills {
+    right: 7%; } }
 /* Contact section */
 .contact {
   height: 50vh;

@@ -14,13 +14,6 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );
 }
 
-/*
-.wrap {
-    max-width: 950px;
-    margin: 0 auto;
-}
-*/
-
 
 /*  About Me   */
 .about {
@@ -31,8 +24,7 @@
 
 .aboutMe {
     position: relative;
-    text-align: center;
-    padding: 7% 10%;
+    padding: 7% 5%;
     font-size: 10rem;
     font-weight: 800;
     z-index: 1;
@@ -40,7 +32,6 @@
 }
 
 .me {
-    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -55,13 +46,28 @@
 }
 
 
-/* Media Queries */ 
+/* Media Queries */
+@media (min-width: 767px) {
+    .me {
+        margin: 0 auto;
+    }
+}
+
 @media (min-width: 968px) {
     .aboutMe {
         padding: 7% 5%;
     }
     
-    .me{
+    .me {
         margin: 0;
+//        max-width: 500px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .me {
+        margin-left: 5%;
+        max-width: 500px;
     }
 }
