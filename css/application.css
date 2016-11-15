@@ -315,6 +315,9 @@ hr {
   left: 0; }
 
 /* Purple background gradient */
+* {
+  border: 1px solid red; }
+
 .contact,
 .aboutMe,
 .projects {
