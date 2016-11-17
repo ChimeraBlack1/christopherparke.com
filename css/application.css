@@ -517,10 +517,13 @@ hr {
   background-position: center; }
 
 .p3 {
-  background-color: blue; }
+  background-image: url("../img/enride.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /* Media Queries */
-@media (min-width: 968) {
+@media (min-width: 968px) {
   .projects h2 {
     padding-top: 5rem; } }
 /* Resume section */
