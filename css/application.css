@@ -511,7 +511,10 @@ hr {
   background-repeat: no-repeat; }
 
 .p2 {
-  background-color: green; }
+  background-image: url("../img/bootgal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .p3 {
   background-color: blue; }
@@ -526,13 +529,14 @@ hr {
   height: 50vh;
   position: relative;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  padding-top: 0; }
 
 .resume h4 {
   margin-top: 0; }
 
 .resume h2 {
-  padding-top: 2.5%; }
+  padding-top: 5%; }
 
 .resume-icon {
   margin: 0 auto;

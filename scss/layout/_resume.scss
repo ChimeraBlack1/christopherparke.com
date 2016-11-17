@@ -5,6 +5,7 @@
     position: relative;
     text-align: center;
     color: #fff;
+    padding-top: 0;
     
 }
 
@@ -13,7 +14,7 @@
 }
 
 .resume h2 {
-    padding-top: 2.5%;
+    padding-top: 5%;
 }
 
 .resume-icon {
@@ -25,10 +26,6 @@
 }
 
 @media (min-width: 768px) {
-    
-    .resume-icon{
-        
-    }
     .resume {
         width: 50%;
         float: left;
