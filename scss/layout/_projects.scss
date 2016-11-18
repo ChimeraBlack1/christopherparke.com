@@ -55,7 +55,9 @@
 /* Media Queries */
 
 @media (min-width: 968px) {
-
+    .projects h2 {
+        padding-top: 0;
+    }
 }
 
 

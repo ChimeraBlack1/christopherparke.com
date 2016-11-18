@@ -25,6 +25,13 @@
     background-size: cover;
 }
 
+@media(min-width: 544px) {
+    .resume-icon {
+        width: 140px;
+        height: 185px;
+    }
+}
+
 @media (min-width: 768px) {
     .resume {
         width: 50%;
