@@ -22,7 +22,6 @@ var clickBurger = function() {
             $('.hamburger > #donutFive').removeClass('x2open');
         
         // close menu
-            // Nav Menu Close
             $('.nav').removeClass('navOpen');
         
         
@@ -91,22 +90,27 @@ var noHeader = function() {
 // Click for next project in gallery
 var Next = function () {
 
-     // if project hasClass project 1 ...
      if ($('#project').hasClass('p1')) {
-         // addClass project2
+         
          $('#project').addClass('p2');
-        // removeClass project1
+         $('#description').addClass('desc2');
          $('#project').removeClass('p1');
+         $('#description').removeClass('desc1');
+         document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
-         // addClass project3
-        $('#project').addClass('p3');
-        // removeClass project2
-        $('#project').removeClass('p2');
+         
+         $('#project').addClass('p3');
+         $('#description').addClass('desc3');
+         $('#project').removeClass('p2');
+         $('#description').removeClass('desc2');
+         document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p3')) {
-        // addClass project1
-        $('#project').addClass('p1');
-        // removeClass project 3
-        $('#project').removeClass('p3');
+         
+         $('#project').addClass('p1');
+         $('#description').addClass('desc1');
+         $('#project').removeClass('p3');
+         $('#description').removeClass('desc3');
+         document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
      }
 }
 
@@ -114,28 +118,40 @@ var Next = function () {
 // Click for previous project in gallery
 var Previous = function () {
 
-     // if project hasClass project 1 ...
      if ($('#project').hasClass('p1')) {
-         // addClass project2
+        
          $('#project').addClass('p3');
-        // removeClass project1
          $('#project').removeClass('p1');
+         
+         $('#description').addClass('desc3');
+         $('#description').removeClass('desc1');
+         document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
-         // addClass project3
-        $('#project').addClass('p1');
-        // removeClass project2
-        $('#project').removeClass('p2');
+       
+         $('#project').addClass('p1');
+         $('#project').removeClass('p2');
+         $('#description').addClass('desc1');
+         $('#description').removeClass('desc2');
+         document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
      } else if ($('#project').hasClass('p3')) {
-        // addClass project1
-        $('#project').addClass('p2');
-        // removeClass project 3
-        $('#project').removeClass('p3');
+        
+         $('#project').addClass('p2');
+         $('#project').removeClass('p3');
+         $('#description').addClass('desc2');
+         $('#description').removeClass('desc3');
+         document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      }
 }
         
 
 
-
+//Change description to correlate to project
+var Desc = function () {
+    if ($('#description').hasClass('desc1')) {
+        
+        
+    }
+}
 
 
 

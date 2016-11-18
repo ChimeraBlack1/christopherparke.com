@@ -503,7 +503,7 @@ hr {
   margin: 0 auto; }
 
 .projects h2 {
-  padding-top: 3rem; }
+  padding-top: 2rem; }
 
 .p1 {
   background-image: url("../img/logistiq.png");
@@ -523,9 +523,6 @@ hr {
   background-position: center; }
 
 /* Media Queries */
-@media (min-width: 968px) {
-  .projects h2 {
-    padding-top: 5rem; } }
 /* Resume section */
 .resume {
   background-color: #333;
