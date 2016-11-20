@@ -92,23 +92,23 @@ var Next = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<a href='Hubnest/index.php'><li id='project' class='p2'></li></a>";
+         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/bootgal'><li id='project' class='p2'></li></a>";
 
          $('#description').removeClass('desc1');
          $('#description').addClass('desc2');
          document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
+            
+         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/enride'><li id='project' class='p3'></li></a>";
          
-         $('#project').addClass('p3');
-         $('#description').addClass('desc3');
-         $('#project').removeClass('p2');
          $('#description').removeClass('desc2');
+         $('#description').addClass('desc3');
          document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p3')) {
          
-         $('#project').addClass('p1');
+         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/Hubnest'><li id='project' class='p1'></li></a>";
+         
          $('#description').addClass('desc1');
-         $('#project').removeClass('p3');
          $('#description').removeClass('desc3');
          document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
      }
