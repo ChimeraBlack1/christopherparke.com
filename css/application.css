@@ -507,22 +507,11 @@ hr {
 .projects h2 {
   padding-top: 2rem; }
 
-.p1 {
-  background-image: url("../img/logistiq.png");
+.projects li img {
+  max-height: 100%;
+  max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat; }
-
-.p2 {
-  background-image: url("../img/bootgal.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.p3 {
-  background-image: url("../img/enride.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
 
 /* Media Queries */
 @media (min-width: 968px) {

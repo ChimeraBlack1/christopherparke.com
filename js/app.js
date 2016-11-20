@@ -92,16 +92,16 @@ var Next = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/bootgal'><li id='project' class='p2'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/bootgal/'><img src='img/bootgal.png' alt='project_two'></a></li>";
          document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
             
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/enride'><li id='project' class='p3'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/enride/'><img src='img/enride.png' alt='project_three'></a></li>";
          document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
          
      } else if ($('#project').hasClass('p3')) {
          
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/Hubnest'><li id='project' class='p1'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiq.png' alt='project_one'></a></li>";
          document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
      }
 }
@@ -112,29 +112,19 @@ var Previous = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/enride'><li id='project' class='p3'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/enride/'><img src='img/enride.png' alt='project_three'></a></li>";
          document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
        
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/Hubnest'><li id='project' class='p1'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiq.png' alt='project_one'></a></li>";
          document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
      } else if ($('#project').hasClass('p3')) {
         
-         document.getElementById("project-list").innerHTML = "<a href='http://christopherparke.com/bootgal'><li id='project' class='p2'></li></a>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/bootgal/'><img src='img/bootgal.png' alt='project_two'></a></li>";
          document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      }
 }
         
-
-
-//Change description to correlate to project
-var Desc = function () {
-    if ($('#description').hasClass('desc1')) {
-        
-        
-    }
-}
-
 
 
 
