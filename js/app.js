@@ -92,10 +92,10 @@ var Next = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         $('#project').addClass('p2');
-         $('#description').addClass('desc2');
-         $('#project').removeClass('p1');
+         document.getElementById("project-list").innerHTML = "<a href='Hubnest/index.php'><li id='project' class='p2'></li></a>";
+
          $('#description').removeClass('desc1');
+         $('#description').addClass('desc2');
          document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
          
@@ -119,9 +119,7 @@ var Next = function () {
 var Previous = function () {
 
      if ($('#project').hasClass('p1')) {
-        
-         $('#project').addClass('p3');
-         $('#project').removeClass('p1');
+         document.getElementById("project-list").innerHTML = "<a href='https://facebook.com'><li id='project' class='p3'></li></a>";
          
          $('#description').addClass('desc3');
          $('#description').removeClass('desc1');
