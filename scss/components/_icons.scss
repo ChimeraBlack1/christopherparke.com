@@ -18,9 +18,11 @@
 
 .facebook-icon {
     background-image: url(../img/fb-white.png);
-
 }
 
+.linkedIn-icon {
+    background-image: url(../img/linkedIn.png);
+}
 
 .youtube-icon {
     background-image: url(../img/youtube2.png); 
@@ -88,7 +90,8 @@
         top: 45%;
     }
     
-    .facebook-icon {
+    .facebook-icon,
+    .linkedIn-icon {
        right: 29%;   
     }
     
@@ -110,7 +113,8 @@
         right: 30%
     }
     
-    .facebook-icon {
+    .facebook-icon,
+    .linkedIn-icon{
        right: 16%;   
     }
     
