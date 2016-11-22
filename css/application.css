@@ -415,6 +415,7 @@ hr {
     padding-bottom: 0; } }
 /* Contact section */
 .contact {
+  background-color: #333;
   height: 50vh;
   min-height: 350px;
   position: relative;
@@ -457,12 +458,29 @@ hr {
 @media (min-width: 768px) {
   .contact {
     float: left;
-    width: 50%; }
+    width: 50%;
+    height: 350px;
+    padding-top: 0; }
 
   .contact h2 {
-    padding-bottom: 7.5%; } }
+    padding-bottom: 0; } }
+.treehouse {
+  height: 50vh;
+  min-height: 350px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  z-index: 0; }
+
+@media (min-width: 968px) {
+  .treehouse {
+    width: 50%;
+    float: left;
+    height: 350px;
+    padding-bottom: 0; } }
 /* Projects Section */
 .projects {
+  background-color: #333;
   height: 50vh;
   min-height: 350px;
   color: #fff;
@@ -503,10 +521,9 @@ hr {
     height: 350px; }
 
   .projects h2 {
-    padding-top: 0; } }
+    padding-top: 2rem; } }
 /* Resume section */
 .resume {
-  background-color: #333;
   height: 50vh;
   min-height: 350px;
   position: relative;
@@ -534,6 +551,7 @@ hr {
 @media (min-width: 768px) {
   .resume {
     width: 50%;
-    float: left; } }
+    float: left;
+    height: 350px; } }
 
 /*# sourceMappingURL=application.css.map */

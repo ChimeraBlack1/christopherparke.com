@@ -1,0 +1,19 @@
+.treehouse {
+    height: 50vh;
+    min-height: 350px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+
+@media (min-width: 968px) {
+    .treehouse {
+        width: 50%;
+        float:left;
+        height: 350px;
+        padding-bottom: 0;
+    }
+    
+}
