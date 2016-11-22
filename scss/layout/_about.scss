@@ -34,32 +34,13 @@
 
 /* Media Queries */
 @media (min-width: 767px) {
-    .me {
-        margin: 0 auto;
-    }
-    .contact,
-    .aboutMe,
-    .projects  {
-        background: rgba(255,255,255,0);
-    }
+
 }
 
 @media (min-width: 968px) {
-    .aboutMe {
-        padding: 7% 5%;
-    }
-    
-    .me {
-        margin: 0;
-        max-width: 500px;
-    }
-    
-    
+
 }
 
 @media (min-width: 1440px) {
-    .me {
-        margin-left: 5%;
-        max-width: 580px;
-    }
+
 }

@@ -357,25 +357,6 @@ hr {
   z-index: -1; }
 
 /* Media Queries */
-@media (min-width: 767px) {
-  .me {
-    margin: 0 auto; }
-
-  .contact,
-  .aboutMe,
-  .projects {
-    background: rgba(255, 255, 255, 0); } }
-@media (min-width: 968px) {
-  .aboutMe {
-    padding: 7% 5%; }
-
-  .me {
-    margin: 0;
-    max-width: 500px; } }
-@media (min-width: 1440px) {
-  .me {
-    margin-left: 5%;
-    max-width: 580px; } }
 /* Skills Section */
 .skills {
   background-color: #333;
@@ -419,20 +400,6 @@ hr {
 .green-bar5 {
   width: 50%; }
 
-@media (min-width: 968px) {
-  .skills {
-    width: 30%;
-    position: absolute;
-    top: 15%;
-    right: 5%;
-    z-index: 2;
-    padding: 2rem; }
-
-  .about-skills {
-    position: relative; }
-
-  .black-bar {
-    left: 10%; } }
 @media (min-width: 1440px) {
   .skills {
     right: 7%; } }
