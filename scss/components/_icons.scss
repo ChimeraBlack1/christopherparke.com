@@ -46,8 +46,8 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    top: 15%;
-    border: 10px solid #333;
+    top: 10%;
+    border: 10px solid #fff;
     border-bottom: 0;   
     cursor: pointer;
     transition: border 800ms, box-shadow 300ms;
@@ -60,6 +60,7 @@
 
 
 .next {
+    box-shadow: -5px -5px 5px black;
     transform: rotate(140deg); 
     right: 10%;
     border-right: 0;
@@ -72,13 +73,13 @@
 }
 
 .prev {
+    box-shadow: 5px -5px 5px black;
     transform: rotate(-140deg);
     left: 10%;
     border-left: 0;
 }
 
 .prev:hover {
-    box-shadow: 5px -5px 5px #333;
     border-left: 0;
 }
 
@@ -106,11 +107,11 @@
 
 @media (min-width: 968px) {
     .prev {
-        left: 30%;
+        left: 10%;
     }
     
     .next {
-        right: 30%
+        right: 10%
     }
     
     .facebook-icon,
