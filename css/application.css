@@ -357,6 +357,12 @@ hr {
   z-index: -1; }
 
 /* Media Queries */
+@media (min-width: 968px) {
+  .aboutMe {
+    width: 50%;
+    padding: 0;
+    height: 350px;
+    float: left; } }
 /* Skills Section */
 .skills {
   background-color: #333;
@@ -370,7 +376,8 @@ hr {
   justify-content: space-between;
   padding-top: 2vh;
   padding-left: 4vh;
-  padding-right: 5vh; }
+  padding-right: 5vh;
+  z-index: 1; }
 
 .skill1 {
   padding-top: 5vh; }
@@ -400,9 +407,12 @@ hr {
 .green-bar5 {
   width: 50%; }
 
-@media (min-width: 1440px) {
+@media (min-width: 968px) {
   .skills {
-    right: 7%; } }
+    width: 50%;
+    float: left;
+    height: 350px;
+    padding-bottom: 0; } }
 /* Contact section */
 .contact {
   height: 50vh;
@@ -446,7 +456,7 @@ hr {
 
 @media (min-width: 768px) {
   .contact {
-    float: right;
+    float: left;
     width: 50%; }
 
   .contact h2 {
@@ -487,6 +497,11 @@ hr {
 
 /* Media Queries */
 @media (min-width: 968px) {
+  .projects {
+    width: 50%;
+    float: left;
+    height: 350px; }
+
   .projects h2 {
     padding-top: 0; } }
 /* Resume section */

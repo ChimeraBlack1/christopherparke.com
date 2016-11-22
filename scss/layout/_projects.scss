@@ -42,6 +42,12 @@
 /* Media Queries */
 
 @media (min-width: 968px) {
+    .projects {
+        width: 50%;
+        float: left;
+        height: 350px;
+    }
+    
     .projects h2 {
         padding-top: 0;
     }

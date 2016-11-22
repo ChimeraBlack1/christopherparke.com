@@ -13,6 +13,7 @@
     padding-top: 2vh;
     padding-left: 4vh;
     padding-right: 5vh;
+    z-index: 1;
 }
 
 .skill1 {
@@ -51,13 +52,16 @@
 }
 
 @media (min-width: 968px) {
-
+    .skills {
+        width: 50%;
+        float:left;
+        height: 350px;
+        padding-bottom: 0;
+    }
     
 }
 
-@media (min-width: 1440px) {
-    .skills {
-        right: 7%;
-    }
-}
+//@media (min-width: 1440px) {
+//    
+//}
 
