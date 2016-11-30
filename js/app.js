@@ -96,8 +96,8 @@ var Next = function () {
          document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
             
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/enride/'><img src='img/enride.png' alt='project_three'></a></li>";
-         document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/mmt2/'><img src='img/mmt.png' alt='project_three'></a></li>";
+         document.getElementById("description").innerHTML = "Meadowvale Music Theatre Remake <br />HTML, CSS, JavaScript, Bootstrap";
          
      } else if ($('#project').hasClass('p3')) {
          
