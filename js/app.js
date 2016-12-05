@@ -96,7 +96,7 @@ var Next = function () {
          document.getElementById("description").innerHTML = "Meadowvale Music Theater website remake <br />HTML, CSS, JavaScript, jQuery, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
             
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiqOP.png' alt='project_three'></a></li>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/logistiq/'><img src='img/logistiqOP.png' alt='project_three'></a></li>";
          document.getElementById("description").innerHTML = "Logistiq login page <br />HTML, CSS, JavaScript, jQuery, Bootstrap";
          
      } else if ($('#project').hasClass('p3')) {
