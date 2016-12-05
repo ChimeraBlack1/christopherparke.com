@@ -1,0 +1,15 @@
+body {
+    position: relative;
+}
+
+.bg-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.to-front {
+    position: relative;
+    z-index: 10;
+}

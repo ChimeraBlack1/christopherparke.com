@@ -112,7 +112,7 @@ var Previous = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/enride/'><img src='img/enride.png' alt='project_three'></a></li>";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/mmt2/'><img src='img/mmt.png' alt='project_three'></a></li>";
          document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
        
