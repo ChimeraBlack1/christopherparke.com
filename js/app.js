@@ -92,17 +92,17 @@ var Next = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/bootgal/'><img src='img/bootgal.png' alt='project_two'></a></li>";
-         document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/mmt2/'><img src='img/mmtOP.png' alt='project_two'></a></li>";
+         document.getElementById("description").innerHTML = "Meadowvale Music Theater website remake <br />HTML, CSS, JavaScript, jQuery, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
             
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/mmt2/'><img src='img/mmt.png' alt='project_three'></a></li>";
-         document.getElementById("description").innerHTML = "Meadowvale Music Theatre Remake <br />HTML, CSS, JavaScript, Bootstrap";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiqOP.png' alt='project_three'></a></li>";
+         document.getElementById("description").innerHTML = "Logistiq login page <br />HTML, CSS, JavaScript, jQuery, Bootstrap";
          
      } else if ($('#project').hasClass('p3')) {
          
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiq.png' alt='project_one'></a></li>";
-         document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/coven/'><img src='img/covenOP.png' alt='project_one'></a></li>";
+         document.getElementById("description").innerHTML = "Food blog <br />HTML, CSS, JavaScript, jQuery";
      }
 }
 
@@ -112,16 +112,16 @@ var Previous = function () {
 
      if ($('#project').hasClass('p1')) {
          
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/mmt2/'><img src='img/mmt.png' alt='project_three'></a></li>";
-         document.getElementById("description").innerHTML = "Enbridge Ride Group Website <br />HTML, CSS, JavaScript, Bootstrap";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p3'><a href='http://christopherparke.com/logistiq/'><img src='img/logistiqOP.png' alt='project-two'></a></li>";
+         document.getElementById("description").innerHTML = "Login for Logistiq <br />HTML, CSS, JavaScript, jQuery, Bootstrap";
      } else if ($('#project').hasClass('p2')) {
        
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/Hubnest/'><img src='img/logistiq.png' alt='project_one'></a></li>";
-         document.getElementById("description").innerHTML = "Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p1'><a href='http://christopherparke.com/coven/'><img src='img/covenOP.png' alt='project_one'></a></li>";
+         document.getElementById("description").innerHTML = "Food blog <br />HTML, CSS, JavaScript, jQuery";
      } else if ($('#project').hasClass('p3')) {
         
-         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/bootgal/'><img src='img/bootgal.png' alt='project_two'></a></li>";
-         document.getElementById("description").innerHTML = "Generic Gallery Website <br />HTML, CSS, JavaScript, Bootstrap";
+         document.getElementById("project-list").innerHTML = "<li id='project' class='p2'><a href='http://christopherparke.com/mmt2/'><img src='img/mmtOP.png' alt='project_two'></a></li>";
+         document.getElementById("description").innerHTML = "Meadowvale Music Theater website remake <br />HTML, CSS, JavaScript, Bootstrap";
      }
 }
         
