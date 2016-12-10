@@ -1,7 +1,5 @@
 /* Projects Section */
 .projects {
-    background-color: #333;
-    height: 50vh;
     min-height: 350px;
     color: #fff;
     position: relative;
@@ -32,12 +30,12 @@
     padding-top: 2rem;
 }
 
-.projects li img {
-    max-height: 100%;
-    max-width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+//.projects li img {
+//    max-height: 100%;
+//    max-width: 100%;
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//}
 
 
 /* Media Queries */
