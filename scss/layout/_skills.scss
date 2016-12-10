@@ -7,22 +7,27 @@
     padding-bottom: 1.5rem;
 }
 
+.skills h2 {
+    font-size: 200%;
+}
+
 .skill {
     display: flex;
     justify-content: space-between;
-    padding-top: 2vh;
+    padding-top: 10px;
     padding-left: 4vh;
     padding-right: 5vh;
     z-index: 1;
 }
 
-.skill1 {
-    padding-top: 5vh;
+.skill span {
+    padding-top: 12px;
 }
+
 
 .black-bar {
     width: 50%;
-    height: 3vh;
+    height: 30px;
     background-color: #222;
     position: relative;
     left: 0;

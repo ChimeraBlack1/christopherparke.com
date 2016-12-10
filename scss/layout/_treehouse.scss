@@ -8,8 +8,15 @@
 }
 
 .leaderboard {
-    width: 300px;
-    height: 150px;
+    max-width: 100%;
+    
+}
+
+.portfolio-item {
+    padding: 20px;
+    position: relative;
+    top: 15%;
+    vertical-align: center;
 }
 
 @media (min-width: 968px) {

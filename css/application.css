@@ -333,6 +333,11 @@ hr {
   margin-top: 2rem;
   padding-top: 12rem; }
 
+.aboutMe h2 {
+  font-size: 20%;
+  text-align: center;
+  padding-top: 20px; }
+
 .aboutMe {
   position: relative;
   padding: 7% 5%;
@@ -343,6 +348,9 @@ hr {
 
 .me {
   margin: 0 auto; }
+
+.me h3 {
+  text-align: center; }
 
 .me p {
   text-align: left;
@@ -374,20 +382,23 @@ hr {
   color: #fff;
   padding-bottom: 1.5rem; }
 
+.skills h2 {
+  font-size: 200%; }
+
 .skill {
   display: flex;
   justify-content: space-between;
-  padding-top: 2vh;
+  padding-top: 10px;
   padding-left: 4vh;
   padding-right: 5vh;
   z-index: 1; }
 
-.skill1 {
-  padding-top: 5vh; }
+.skill span {
+  padding-top: 12px; }
 
 .black-bar {
   width: 50%;
-  height: 3vh;
+  height: 30px;
   background-color: #222;
   position: relative;
   left: 0; }
@@ -476,8 +487,13 @@ hr {
   z-index: 0; }
 
 .leaderboard {
-  width: 300px;
-  height: 150px; }
+  max-width: 100%; }
+
+.portfolio-item {
+  padding: 20px;
+  position: relative;
+  top: 15%;
+  vertical-align: center; }
 
 @media (min-width: 968px) {
   .treehouse {

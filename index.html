@@ -56,6 +56,7 @@
       </section>
     <div class="about-skills">
       <section id='about' class='aboutMe'>
+          <h2>About Me</h2>
         <div class="me">
           <h3>I'm a front end web developer, but I prefer to think of myself as a Wizard</h3>
           <p>I say <span class="bold italic">Wizard</span> because to me, working with code is like spellcasting.  <br>Instead of a spellbook full of incantations, I have a box made from refined dinosaur bone that controls lightning.</p>
@@ -69,7 +70,7 @@
       
       <section id='skills' class='skills'>
           <h2>Skills</h2>
-        <div class='skill skill1'>
+        <div class='skill'>
           <span>HTML</span>
           <div class='black-bar'>
               <div class='green-bar green-bar2'>
@@ -116,23 +117,28 @@
     </div>
       
       <section id='treehouse' class='treehouse'>
+<!--
         <h2>Treehouse Leaderboard</h2>
           <p>As you can see from this screenshot, I have completed more content in HTML, CSS and JavaScript than 97% of other Treehouse Developers</p>
-          <a href='img/Leaderboard2.png'><img src='img/Leaderboard2.png' class='leaderboard'></a>
+--> 
+        <div class="portfolio-item">
+          <a href='img/Leaderboard2.png'>
+              <img src='img/Leaderboard2.png' class='leaderboard'>
+          </a>
+        </div>
         <div class='projects-overlay'></div>
       </section>
       
       <section id='projects' class='projects'>
-          <div class="prev arrow" onclick="Previous()"></div>
+
           <div class='gallery'>
               <h2>Projects</h2>
-              <p id='description' class='desc1'>Login page for LogistIQ <br />HTML, CSS, JavaScript, jQuery</p>
+              
             <ul id='project-list'> 
                 <li id='project' class="p1"><a href='http://christopherparke.com/coven/'><img src='img/covenOP.png' alt='project_one'></a></li>
             </ul>
           </div>
-          <div class="next arrow" onclick="Next()"></div>
-<!--          <div class='projects-overlay'></div>-->
+
       </section>
       
           <div id='resume' class='resume'>
